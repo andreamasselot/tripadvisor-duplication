@@ -20,6 +20,7 @@ justify-content: space-between;
 .menu_links{
   padding: 10px;
   font-size: 16px;
+  margin-right: 10px;
 }
 .menu_links i {
   margin-right: 6px;
@@ -54,17 +55,24 @@ justify-content: space-between;
 .categories{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .category_links{
   border: solid 1px black;
   border-radius: 10px;
   text-decoration: none;
   color: black;
-  padding: 20px;
-  max-width: 15%;
-
+  padding: 12px 16px;
+  min-width: 15%;
+  max-width: 17%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
 }
-.category_links :hover{
+.category_links i {
+  margin-left: 10px;
+}
+.categories :hover{
   background-color: black;
   color: white;
 }
@@ -76,28 +84,78 @@ justify-content: space-between;
   flex: 2;
 }
 .pictures_1 img {
-  width: 100%;
-  object-fit: cover;
+  width: 99%;
+  
 }
 .pictures_2{
   display: flex;
   flex-direction: column;
   flex: 1;
+  justify-content: space-between;
 }
 .pictures_2 img {
-  width: 100%;
+  width: 99%;
   object-fit: cover;
+}
+.top_section_images :hover{
+opacity: 0.9;
+}
+
+.caption_pictures_top{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 45px 0px;
+  padding: 4px;
+}
+.caption_pic_link{
+  display: flex;
+  
+}
+.caption_pictures_top a, p{
+  text-decoration: none;
+  color: #333333;
+  font-size: 12px;
+  font-family: "Trip Sans Regular";
+  margin-right: 8px;
 }
 .top_section article {
   max-width: 50%;
 }
 .top_section article h2 {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 120%;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 .top_section article p {
   font-size: 20px;
   line-height: 24px;
   color: #333333;
   font-family: Georgia, arial, sans-serif;
+  margin-bottom: 30px;
 }
+.middle_section h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  
+}
+.carroussels{
+  display: flex;
+}
+.carroussels img {
+  max-width: 270px ;
+  padding: 1px;
+}
+.carroussels img :hover {
+  opacity: 0.9;
+}
+.carroussels h3 {
+  font-size: 24px;
+  font-family: "Trip Sans Regular";
+}
+.carroussels p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333333;
+  font-size: 18px;
+}
+.carroussels a {color: #333333;}
