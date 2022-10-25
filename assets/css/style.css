@@ -1,0 +1,103 @@
+.container{
+  max-width: 1136px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Trip Sans Medium', arial, sans-serif;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.menu{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.menu_links{
+  padding: 10px;
+  font-size: 16px;
+}
+.menu_links i {
+  margin-right: 6px;
+  font-size: 20px;
+}
+.logo{
+  max-width: 188px;
+} 
+.avatar{
+  border-radius: 50%;
+  max-width: 40px;
+}
+
+.top_section h1{
+  font-size: 60px;
+
+}
+.top_section span {
+  color: #FF5D5D;
+}
+.top_section p{
+  font-family: "Trip Sans Regular", arial, sans-serif;
+}
+.title p{
+  color: #333333;
+  font-size: 14px;
+  margin: 20px 0px 30px 0px;
+}
+.title a {
+  color: #333333;
+}
+.categories{
+  display: flex;
+  justify-content: space-between;
+}
+.category_links{
+  border: solid 1px black;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  max-width: 15%;
+
+}
+.category_links :hover{
+  background-color: black;
+  color: white;
+}
+.top_section_images{
+  display: flex;
+ 
+}
+.pictures_1{
+  flex: 2;
+}
+.pictures_1 img {
+  width: 100%;
+  object-fit: cover;
+}
+.pictures_2{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.pictures_2 img {
+  width: 100%;
+  object-fit: cover;
+}
+.top_section article {
+  max-width: 50%;
+}
+.top_section article h2 {
+  font-size: 30px;
+  line-height: 120%;
+}
+.top_section article p {
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  font-family: Georgia, arial, sans-serif;
+}
