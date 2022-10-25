@@ -56,6 +56,7 @@ justify-content: space-between;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  
 }
 .category_links{
   border: solid 1px black;
@@ -75,6 +76,7 @@ justify-content: space-between;
 .categories :hover{
   background-color: black;
   color: white;
+  transition: all 0.3s ease;
 }
 .top_section_images{
   display: flex;
@@ -99,6 +101,7 @@ justify-content: space-between;
 }
 .top_section_images :hover{
 opacity: 0.9;
+transition: all 0.3s ease;
 }
 
 .caption_pictures_top{
@@ -136,26 +139,66 @@ opacity: 0.9;
 }
 .middle_section h3 {
   font-size: 28px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   
 }
+.descriptions{
+  max-width: 24%;
+}
+.descriptions p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 25px;
+  color: #333333;
+}
+
 .carroussels{
   display: flex;
+  justify-content: space-evenly;
 }
 .carroussels img {
-  max-width: 270px ;
+ width: 100%;
   padding: 1px;
 }
-.carroussels img :hover {
-  opacity: 0.9;
-}
+
 .carroussels h3 {
   font-size: 24px;
-  font-family: "Trip Sans Regular";
+  font-family: "Trip Sans Regular", sans-serif;
 }
 .carroussels p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #333333;
   font-size: 18px;
+  margin-bottom: 20px;
 }
-.carroussels a {color: #333333;}
+.carroussels a {color: #333333;
+}
+.options {
+  max-width: 32%;
+  margin-bottom: 50px;
+}
+.options :hover {
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+.options p {
+font-size: 14px;
+font-family: "Trip Sans Regular", sans-serif;
+}
+.options a {
+  text-decoration: none;
+}
+
+.options h4 {
+  font-size: 18px;
+  color: black;
+  font-family: "Trip Sans Medium";
+}
+.rating{
+  margin: 5px 0px;
+  font-size: 12px;
+  color: #00aa6c;
+}
+.option_container {
+  display: flex;
+  justify-content: space-between;
+}
