@@ -231,6 +231,7 @@ font-family: "Trip Sans Regular", sans-serif;
   width: 226px;
 height: 170px;
 margin-bottom: 10px;
+position: relative;
 }
 .old-quarter{
   background-image: url(../img/old-quarter.jpg);
@@ -335,4 +336,45 @@ margin-bottom: 10px;
   background-image: url(../img/meal9.jpg);
   background-size: cover;
   background-position: center;
+}
+.owl{
+  width: 45px;
+  height: 45px;
+  position: absolute ;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+}
+.heart{
+  background-color: white ;
+  border-radius: 50%;
+  color: black;
+  padding: 10px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+}
+footer{
+  background-color: #faf1ec;
+  padding: 30px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.footer img{
+  width: 50px;
+  margin-right: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-family: "Trip Sans Medium";
+  font-size: 18px;
+}
+.footer p {
+  font-size: 18px;
 }
