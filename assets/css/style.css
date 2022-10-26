@@ -21,6 +21,12 @@ justify-content: space-between;
   padding: 10px;
   font-size: 16px;
   margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+.menu_links:hover{
+  border-radius: 20px;
+  background-color: lightgray;
 }
 .menu_links i {
   margin-right: 6px;
@@ -33,6 +39,7 @@ justify-content: space-between;
   border-radius: 50%;
   max-width: 40px;
 }
+
 
 .top_section h1{
   font-size: 60px;
@@ -80,25 +87,38 @@ justify-content: space-between;
 }
 .top_section_images{
   display: flex;
- 
+ height: 400px;
+ gap: 2px;
+ margin-top: 50px;
 }
 .pictures_1{
-  flex: 2;
-}
-.pictures_1 img {
-  width: 99%;
+  flex: 4;
+  background-image: url(../img/caption.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;}
   
-}
+
 .pictures_2{
+  flex: 3;
   display: flex;
   flex-direction: column;
+  gap: 2px;
+
+}
+.mini-picture{
+  background-image: url(../img/baie_halong.jpg);
   flex: 1;
-  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
 }
-.pictures_2 img {
-  width: 99%;
-  object-fit: cover;
+.mini-picture-2{
+  background-image: url(../img/lake_water.jpg);
+  flex: 1;
+  background-size: cover;
+  background-position: center;
 }
+
 .top_section_images :hover{
 opacity: 0.9;
 transition: all 0.3s ease;
@@ -155,10 +175,6 @@ transition: all 0.3s ease;
   display: flex;
   justify-content: space-evenly;
 }
-.carroussels img {
- width: 100%;
-  padding: 1px;
-}
 
 .carroussels h3 {
   font-size: 24px;
@@ -173,9 +189,9 @@ transition: all 0.3s ease;
 .carroussels a {color: #333333;
 }
 .options {
-  max-width: 32%;
   margin-bottom: 50px;
 }
+
 .options :hover {
   opacity: 0.9;
   transition: all 0.3s ease;
@@ -198,7 +214,125 @@ font-family: "Trip Sans Regular", sans-serif;
   font-size: 12px;
   color: #00aa6c;
 }
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
 .option_container {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
+  overflow-x: scroll;
+  max-width:76% ;
+  flex-wrap: nowrap;
+}
+.illustration{
+  background-color: red;
+  flex: 1;
+  width: 226px;
+height: 170px;
+margin-bottom: 10px;
+}
+.old-quarter{
+  background-image: url(../img/old-quarter.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hoan-kiem{
+  background-image: url(../img/lac_hanoi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.train-street{
+  background-image: url(../img/hanoi_railway.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.prison-hoalo{
+  background-image: url(../img/prisonhoaloa.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.opera-house {
+  background-image: url(../img/hanoi-opera-house.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.temple-hanoi{
+  background-image: url(../img/carroussel1-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.metropole{
+  background-image: url(../img/hotel1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.Ma-may{
+  background-image: url(../img/hostel_hanoi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.boutique-hotel{
+  background-image: url(../img/room_hanoi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hotel-4{
+  background-image: url(../img/hotel-4.jpg);
+  background-size: cover;
+  background-position: center;}
+.hotel-5{
+  background-image: url(../img/hotel5.jpg);
+  background-size: cover;
+  background-position: center;}
+.hotel-6{
+  background-image: url(../img/hotel6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.bun-cha{
+  background-image: url(../img/bun_cha_hanoi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.giang-cafe{
+  background-image: url(../img/unassuming-spot.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.meal-3{
+  background-image: url(../img/vietnamese_meal.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.meal-4{
+  background-image: url(../img/meal4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.meal-5{
+  background-image: url(../img/meal5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.meal-6{
+  background-image: url(../img/meal6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.meal-7{
+  background-image: url(../img/meal7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.meal-8{
+  background-image: url(../img/meal8.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.meal-9{
+  background-image: url(../img/meal9.jpg);
+  background-size: cover;
+  background-position: center;
 }
