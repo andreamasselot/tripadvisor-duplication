@@ -28,6 +28,9 @@ justify-content: space-between;
   border-radius: 20px;
   background-color: lightgray;
 }
+.menu_profile:hover{
+  opacity: 0.9;
+}
 .menu_links i {
   margin-right: 6px;
   font-size: 20px;
