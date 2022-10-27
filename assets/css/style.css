@@ -176,7 +176,7 @@ transition: all 0.3s ease;
 
 .carroussels{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .carroussels h3 {
@@ -223,9 +223,9 @@ font-family: "Trip Sans Regular", sans-serif;
 }
 .option_container {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   overflow-x: scroll;
-  max-width:76% ;
+  max-width:64% ;
   flex-wrap: nowrap;
 }
 .illustration{
