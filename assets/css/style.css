@@ -381,3 +381,59 @@ footer{
 .footer p {
   font-size: 18px;
 }
+.nav-button{
+  display: none;
+}
+.block{
+  display: none;
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+  .hidden{
+   display: none;
+  }
+  .nav-button{
+    display: block;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: "Trip Sans Regular", sans-serif;
+    font-size: 16px;  
+  }
+  .logo{
+   
+    max-width: 250px;
+  }
+  .block {
+    display: block;
+    position: relative;
+  }
+  .block i {
+    position: absolute;
+top: 13px;
+right: 16px;    
+  }
+  .categories{
+    flex-wrap: wrap;
+    justify-content: initial;
+    gap: 6px;
+  }
+  .category_links{
+    min-width: 24%; 
+    
+  }
+  .top_section article{
+    max-width: 98%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .option_container{
+    max-width: 67%;
+  }
+}
+
