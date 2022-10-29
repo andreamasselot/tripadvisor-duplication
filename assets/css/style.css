@@ -381,28 +381,109 @@ footer{
 .footer p {
   font-size: 18px;
 }
-.nav-button{
-  display: none;
-}
+
 .block{
   display: none;
 }
+.modal {
+  background-color: rgba(0, 0,0, 0.8);
+  height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.form-container{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  border-radius: 20px;
+  flex-shrink: 1;
+  padding: 10px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+}
+.cross{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: darkgray;
+}
+.form-container h3 {
+  font-family: "Trip Sans Medium", sans-serif;
+  font-size: 24px;
+  margin: 40px 0px;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 90%;
+  max-width: 250px; 
+  justify-content: center;
+  align-items: center;
+
+}
+.form-container input {
+    font-family: "Trip Sans Regular", sans-serif;
+    padding: 10px;
+border: solid 2px black;
+font-size: 15px;  
+width: 90%;
+}
+.form-container button{
+  background-color: #00aa6c;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Trip Sans Regular", sans-serif;
+  ;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 77%;
+
+}
+.form-container button:hover{
+  background-color: lightgreen;
+  cursor: pointer;
+}
+textarea{
+  width: 100%;
+  padding:5px 10px;
+  border: solid 2px black;
+  font-size: 15px;
+  font-family: "Trip Sans Regular", sans-serif;
+}
+.nav-button{
+  display: block;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: "Trip Sans Regular", sans-serif;
+  font-size: 16px;  
+}
+.open{
+  display: flex;
+}
+
 
 @media (max-width: 1024px) {}
 
 @media (max-width: 768px) {
   .hidden{
    display: none;
-  }
-  .nav-button{
-    display: block;
-    border: none;
-    border-radius: 30px;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    font-family: "Trip Sans Regular", sans-serif;
-    font-size: 16px;  
   }
   .logo{
    
@@ -434,6 +515,9 @@ right: 16px;
   }
   .option_container{
     max-width: 67%;
+  }
+  .pictures_2{
+    display: none;
   }
 }
 
